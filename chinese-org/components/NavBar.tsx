@@ -7,7 +7,7 @@ const Navbar = () => {
         setNav(!nav)
     }
     return (
-        <div className='flex justify-between items-center h-24 w-full mx-auto px-4 text-white'>
+        <div className='flex z-9999 justify-between items-center h-24 w-full mx-auto px-4 text-white'>
             <h1 className='w-full text-2xl text-[#F26C4F]'>Chinese.org</h1>
             <ul className='hidden md:flex'>
                 <li className='p-4 text-[#F26C4F]'>HOME</li>
